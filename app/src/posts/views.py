@@ -4,14 +4,27 @@ import os
 
 # Create your views here.
 def post_create(request):
-    # return HttpResponse("<h1>"+os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+"</h1>")
     return render(request, "index.html", {})
 
 def post_detail(request):
-    return HttpResponse("<h1>post_detail</h1>")
+    context = {
+        "title": "Detail"
+    }
+    return render(request, "index.html", context)
 
 def post_list(request):
-    return render(request, "index.html", {})
+    context = {
+        "title":"List"
+    }
+    # if request.user.is_authenticated:
+    #     context = {
+    #         "title":"My User List"
+    #     }
+    # else:
+    #     context = {
+    #         "title":"List"
+    #     }
+    return render(request, "index.html", context)
 
 def post_update(request):
     return HttpResponse("<h1>post_update</h1>")
