@@ -20,5 +20,6 @@ from app.src.posts import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('posts/', include("app.src.posts.urls"))
+    path('posts/', include("app.src.posts.urls")),
+    path('demands/', include('app.src.demands.urls')),
 ]
