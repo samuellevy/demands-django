@@ -14,6 +14,11 @@ body {
   font-family: "Roboto";
   background-color: rgba(203, 203, 210, 0.15); }
 
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
 nav {
   width: 250px;
   background-color: #009fe2;
@@ -23,7 +28,7 @@ nav {
   nav header {
     font-size: 20px;
     color: #fff;
-    padding: 15px 0 12px;
+    padding: 10px 0 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     width: 100%;
     text-align: center;
@@ -53,5 +58,42 @@ nav {
         padding: 0 10px; }
       nav .menu ul li span {
         font-size: 14px; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  section header {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    padding: 20px 30px;
+    color: #aaa; }
+  section h2 {
+    padding: 20px 20px 0; }
+  section article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    width: 100%; }
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse; }
+  table thead th {
+    border-bottom: 1px solid #ddd;
+    color: #009fe2;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: left;
+    padding: 5px 10px; }
+  table tbody tr:nth-of-type(2n + 1) {
+    background-color: #f9f9f9; }
+  table tbody td {
+    padding: 10px 10px; }
 
 /*# sourceMappingURL=global.css.map */

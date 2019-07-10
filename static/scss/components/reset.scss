@@ -8,3 +8,9 @@ body {
   font-family: "Roboto";
   background-color: rgba(203, 203, 210, 0.15);
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
