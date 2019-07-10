@@ -1,5 +1,9 @@
 * {
-  .container {
-    margin: 60px auto;
-  }
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import "components/reset.scss";
+@import "components/nav.scss";

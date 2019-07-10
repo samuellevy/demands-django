@@ -1,0 +1,51 @@
+nav {
+  width: 250px;
+  background-color: #009fe2;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  header {
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 0 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    .logo {
+      width: 40px;
+      margin: 0 10px 0 30px;
+    }
+  }
+  .menu {
+    padding: 30px 25px;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    ul {
+      li {
+        text-transform: uppercase;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 5px;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.3);
+          cursor: pointer;
+        }
+
+        i {
+          font-size: 30px;
+          padding: 0 10px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
