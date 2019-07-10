@@ -5,5 +5,5 @@
 		"global.scss"
 	],
 	"names": [],
-	"mappings": "AAAA,AACE,CADD,CACC,GAAG,CAAC;EACF,gBAAgB,EAAE,MAAM,GACzB"
+	"mappings": "AAAA,AACE,CADD,CACC,UAAU,CAAC;EACT,MAAM,EAAE,SAAS,GAClB"
 }
