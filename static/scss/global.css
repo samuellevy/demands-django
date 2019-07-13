@@ -96,4 +96,24 @@ table {
   table tbody td {
     padding: 10px 10px; }
 
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; }
+  form .input-group {
+    display: flex;
+    padding: 10px 0; }
+    form .input-group label {
+      width: 20%;
+      padding: 10px;
+      color: #aaa;
+      text-transform: uppercase;
+      font-size: 14px; }
+    form .input-group input {
+      flex: 0 83%;
+      padding: 10px; }
+    form .input-group textarea {
+      flex: 0 83%;
+      padding: 10px; }
+
 /*# sourceMappingURL=global.css.map */
