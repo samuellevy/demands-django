@@ -115,5 +115,17 @@ form {
     form .input-group textarea {
       flex: 0 83%;
       padding: 10px; }
+    form .input-group button {
+      margin: 0;
+      padding: 10px 25px;
+      border: none;
+      font-size: 15px;
+      margin-right: 5px; }
+      form .input-group button.primary {
+        color: #ffffff;
+        background-color: #009fe2; }
+      form .input-group button.danger {
+        color: #ffffff;
+        background-color: #dc3545; }
 
 /*# sourceMappingURL=global.css.map */

@@ -72,5 +72,20 @@ form {
       flex: 0 83%;
       padding: 10px;
     }
+    button {
+      margin: 0;
+      padding: 10px 25px;
+      border: none;
+      font-size: 15px;
+      margin-right: 5px;
+      &.primary {
+        color: #ffffff;
+        background-color: #009fe2;
+      }
+      &.danger {
+        color: #ffffff;
+        background-color: #dc3545;
+      }
+    }
   }
 }
