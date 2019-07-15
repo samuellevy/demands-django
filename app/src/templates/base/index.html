@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/pe-icons.css' %}" />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="{% sass_src 'scss/global.scss' %}" />
+
     <title>Demands - {{ title }}</title>
   </head>
   <body>
@@ -29,4 +30,15 @@
       {% block content %} {% endblock %}
     </main>
   </body>
+
+  <!-- Scripts -->
+  <script src="https://cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace("editor", {
+      width: "83%",
+      height: 300
+      /* Default CKEditor styles are included as well to avoid copying default styles. */
+      // customConfig: "./small.js"
+    });
+  </script>
 </html>
